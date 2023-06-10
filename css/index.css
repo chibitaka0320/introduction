@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    min-width: 350px;
 }
 ul {
     display: flex;
@@ -11,16 +12,6 @@ header {
     margin:0 auto;
     position:relative;
 }
-header img {
-    height: 80px;
-    position:absolute;
-    top: 60px;
-}
-header nav {
-    position:absolute;
-    top: 140px;
-    right:0;
-}
 header nav ul li {
     margin-left: 20px;
 }
@@ -29,17 +20,12 @@ header nav ul li a {
     color: #000;
     font-size: 14px;
 }
-.social-btn {
-    position:absolute;
-    top: 80px;
-    right: 0;
-}
 .social-btn li i {
     margin-right: 20px;
     font-size: 24px;
 }
 .fab {
-    padding-left: 20px;
+    margin-left: 20px;
 }
 
 /* コンテンツ */
@@ -120,3 +106,51 @@ footer {
 footer {
     font-size: 22px;
 }
+
+/* レスポンシブ700 */
+@media screen and (max-width:700px) {
+    header {
+        width: 90%;
+    }
+    .contents {
+        width: 90%;
+    }
+}
+/* レスポンシブ450 */
+@media screen and (min-width:450px) {
+    header img {
+        height: 80px;
+        position:absolute;
+        top: 60px;
+    }
+    .social-btn {
+        position:absolute;
+        top: 80px;
+        right: 0;
+    }
+    header nav {
+        position:absolute;
+        top: 140px;
+        right:0;
+    }
+
+}
+/* レスポンシブ450 */
+@media screen and (max-width:450px) {
+    header {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    header img {
+        width: 150px;
+    }
+    .social-btn {
+        padding: 0;
+    }
+    header nav ul {
+        padding: 0;
+    }
+}
+
