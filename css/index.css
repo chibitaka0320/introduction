@@ -27,6 +27,9 @@ header nav ul li a {
 .fab {
     margin-left: 20px;
 }
+.fab-instagram {
+    color:"red";
+}
 
 /* コンテンツ */
 .contents {
@@ -115,6 +118,13 @@ footer {
     .contents {
         width: 90%;
     }
+    .about-main {
+        align-items: center;
+        flex-direction: column;
+    }
+    #about table {
+        width: 70%;
+    }
 }
 /* レスポンシブ450 */
 @media screen and (min-width:450px) {
@@ -144,13 +154,19 @@ footer {
         justify-content: center;
     }
     header img {
-        width: 150px;
+        width: 200px;
     }
     .social-btn {
         padding: 0;
     }
     header nav ul {
         padding: 0;
+    }
+    #about table {
+        width: 90%;
+    }
+    .fab {
+        transform: scale(1.3);
     }
 }
 
