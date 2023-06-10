@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+}
+header {
+    height: 220px;
+    width: 60%;
+    margin:0 auto;
+    position:relative;
+}
+header img {
+    height: 80px;
+    position:absolute;
+    top: 60px;
+}
+header nav {
+    position:absolute;
+    top: 140px;
+    right:0;
+}
+header nav ul li {
+    margin-left: 20px;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+.social-btn {
+    position:absolute;
+    top: 80px;
+    right: 0;
+}
+.social-btn li i {
+    margin-right: 20px;
+    font-size: 24px;
+}
+.fab {
+    padding-left: 20px;
+}
+
+/* コンテンツ */
+.contents {
+    width: 60%;
+    margin:20px auto;
+    padding: 40px 0;
+    line-height: 30px;
+}
+.contents h1{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 36px;
+    font-weight:lighter;
+}
+
+/* アバウト */
+#about {
+    background-color: #F2ECE4;
+}
+#about img {
+    width: 100px;
+    height: 150px;
+    margin-top: 20px;
+}
+.about-main {
+    display: flex;
+    justify-content: space-between;
+}
+#about table {
+    width: 380px;
+    text-align: left;
+}
+tr {
+    display: block;
+    margin: 20px 0;
+}
+th {
+    vertical-align: top;
+    width: 100px;
+}
+
+/* ワーク */
+#works p,#blog p {
+    font-size: 20px;
+    height: 20vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ブログ */
+#blog {
+    background-color: #F2ECE4;
+    height: 40vh;
+}
+
+/* お問い合わせ */
+#contact p {
+    display: block;
+    margin: 40px 0;
+}
+#contact h3 {
+    font-size: 24px;
+}
+
+/* フッター */
+footer {
+    display: flex;
+    background-color: #F2ECE4;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+footer {
+    font-size: 22px;
+}
