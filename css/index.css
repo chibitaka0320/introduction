@@ -45,6 +45,7 @@ header nav ul li a {
 /* コンテンツ */
 .contents {
     width: 60%;
+    max-width: 700px;
     margin:20px auto;
     padding: 40px 0;
     line-height: 30px;
